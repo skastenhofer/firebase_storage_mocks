@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_storage: ^11.0.0
+  firebase_storage:
+    git:
+      url: https://github.com/skastenhofer/flutterfire
+      ref: master
+      path: packages/firebase_storage/firebase_storage
 
 dev_dependencies:
   flutter_test:
